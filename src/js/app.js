@@ -676,9 +676,9 @@ function fetchOpenWeatherMapData(
     overrideLocation
 ) {
     var url =
-        'http://api.openweathermap.org/data/2.5/weather?appid=' + weatherKey;
+        'https://api.openweathermap.org/data/2.5/weather?appid=' + weatherKey;
     var urlForecast =
-        'http://api.openweathermap.org/data/2.5/forecast?appid=' +
+        'https://api.openweathermap.org/data/2.5/forecast?appid=' +
         weatherKey +
         '&format=json&cnt=12';
 
